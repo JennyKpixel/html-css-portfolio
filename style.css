@@ -12,6 +12,12 @@ body {
   background-color: whitesmoke;
 }
 
+a {
+  text-decoration: none;
+  text-align: center;
+  color: #8082df;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -122,11 +128,6 @@ button:hover {
           transform-style: preserve-3d;
   background-size: cover;
   background-position: center;
-}
-
-.container .flip-box a {
-  text-decoration: none;
-  text-align: center;
 }
 
 .container .flip-box .back {
