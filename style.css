@@ -1,3 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,11 +25,15 @@ a {
   color: #8082df;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+h1 {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+h3, p {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
 }
 
 header {
@@ -45,17 +56,6 @@ header .overlay {
   color: #FFF;
   text-shadow: 1px 1px 1px #333;
   background-image: linear-gradient(135deg, #052bff69 10%, #08fdc86b 100%);
-}
-
-h1 {
-  font-family: 'Noto Serif TC', serif;
-  font-size: 50px;
-  margin-bottom: 30px;
-}
-
-h3, p {
-  font-family: 'Open Sans', sans-serif;
-  margin-bottom: 30px;
 }
 
 button {
@@ -154,6 +154,10 @@ button:hover {
   border: 15px solid transparent;
   border-bottom-color: white;
   border-left-color: white;
+}
+
+.container .flip-box .back:after div {
+  padding: 3px auto;
 }
 
 .container .flip-box .front {
